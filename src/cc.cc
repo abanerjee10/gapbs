@@ -216,7 +216,7 @@ bool CCVerifier(const Graph &g, const pvector<NodeID> &comp) {
   return true;
 }
 
-
+/*
 int main(int argc, char* argv[]) {
   CLApp cli(argc, argv, "connected-components-afforest");
   if (!cli.ParseArgs())
@@ -227,3 +227,4 @@ int main(int argc, char* argv[]) {
   BenchmarkKernel(cli, g, CCBound, PrintCompStats, CCVerifier);
   return 0;
 }
+*/
